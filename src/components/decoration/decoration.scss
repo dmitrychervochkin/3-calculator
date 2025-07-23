@@ -1,0 +1,30 @@
+.decoration {
+    position: absolute;
+    
+    &__circle {
+        border-radius: 50%;
+        background: #f0f0f3;
+        box-shadow: -20px -20px 30px #ffffff, 20px 20px 30px #b0aec040;
+    }
+
+    &__rectangle {
+        border-radius: 20px;
+        background: #f0f0f3;
+        box-shadow: -20px -20px 30px #ffffff, 20px 20px 30px #aeaec040;
+    }
+
+    &__mosaic {
+        --dot-size: 12px;
+        display: grid;
+        grid-template-columns: repeat(6, var(--dot-size));
+        grid-template-rows: repeat(9, var(--dot-size));
+        gap: 15px;
+
+        &--dot {
+            width: var(--dot-size);
+            height: var(--dot-size);
+            border-radius: 50%;
+            background: #8998c530;
+        }
+    }
+}

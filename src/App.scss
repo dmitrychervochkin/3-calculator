@@ -1,0 +1,45 @@
+.app {
+    position: relative;
+}
+
+.decoration-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px;
+    height: 100vh;
+
+    &__top,
+    &__bottom {
+        flex: 1;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #rectangle-1 {
+        bottom: 0;
+        left: 0;
+    }
+    #rectangle-2 {
+        top: 0;
+        right: 0;
+    }
+    #circle-1 {
+        bottom: -200px;
+        left: 0;
+    }
+    #circle-2 {
+        top: 50%;
+        right: 0;
+    }
+    #mosaic-1 {
+        transform: translateX(50%);
+        left: 30%;
+    }
+    #mosaic-2 {
+        transform: translateX(50%);
+        right: 30%;
+    }
+}
