@@ -28,3 +28,4 @@ cd react-calculator
 npm install
 npm run dev
 ```
+![Calculator Preview](./preview.png)
