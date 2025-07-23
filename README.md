@@ -23,8 +23,8 @@
 ## 🚀 Установка
 
 ```bash
-git clone https://github.com/your-username/react-calculator.git
-cd react-calculator
+git clone https://github.com/dmitrychervochkin/3-calculator.git
+cd 3-calculator
 npm install
 npm run dev
 ```
